@@ -1,14 +1,14 @@
 ### FrontEnd Deploy Script: 
 
-    aws s3 cp --recursive ./www s3://udagram-front/
+    aws s3 cp --recursive ./www s3://front-udagram/
 
-# S3 Frontend (udagram-front)
+# S3 Frontend (front-udagram)
 
 ![S3 Frontend](./screenshots/S3/s3_front.png)
 
 ### BackEnd Deploy Script:
  
-    - eb init udagram-api --platform node.js --region us-east-1
+    - eb init udagram --platform node.js --region us-east-1
 
     - npm run build
 
@@ -16,8 +16,8 @@
     deploy:
     artifact: www/Archive.zip
 
-    - eb create --sample udagram-api
-    - eb use udagram-api
+    - eb create --sample udagram
+    - eb use udagram
     - eb deploy
 
 # Elastic Beanstalk

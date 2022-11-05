@@ -29,7 +29,7 @@ Provision the necessary AWS services needed for running the application:
 
 This project contains two different test suite: unit tests and End-To-End tests(e2e). Follow these steps to run the tests.
 
-1. `cd starter/udagram-frontend`
+1. `cd starter/front-udagram`
 1. `npm run test`
 1. `npm run e2e`
 
@@ -45,9 +45,9 @@ The e2e tests are using Protractor and Jasmine.
 
 ### FrontEnd Enviroment: 
 
-* S3 BucketName: udagram-front
+* S3 BucketName: front-udagram
     
-    S3 URL: `http://udagram-front.s3-website-us-east-1.amazonaws.com/`
+    S3 URL: `http://front-udagram.s3-website-us-east-1.amazonaws.com`
 ## Built With
 
 - [Angular](https://angular.io/) - Single Page Application Framework
