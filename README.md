@@ -25,7 +25,7 @@ Provision the necessary AWS services needed for running the application:
 1. From the root of the repo, navigate udagram-api folder `cd starter/udagram-api` to install the node_modules `npm install`. After installation is done start the api in dev mode with `npm run dev`.
 1. Without closing the terminal in step 1, navigate to the udagram-frontend `cd starter/udagram-frontend` to intall the node_modules `npm install`. After installation is done start the api in dev mode with `npm run start`.
 
-## Testing
+## Testing 
 
 This project contains two different test suite: unit tests and End-To-End tests(e2e). Follow these steps to run the tests.
 
